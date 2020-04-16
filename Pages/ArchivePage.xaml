@@ -1,0 +1,35 @@
+﻿<Page x:Class="SalesJournal.Pages.ArchivePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SalesJournal.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ArchivePage">
+
+    <Grid  >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="260"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0"   Background="#C1A5D6">
+
+        </StackPanel>
+        <StackPanel Grid.Column="1"   Background="#AF8EC8">
+            <Border  Padding="4" Background="#A74BBB" BorderBrush="Black" BorderThickness="1" CornerRadius="3" Margin="8">
+                <StackPanel>
+                    <Border BorderBrush="Black" BorderThickness="1" Margin="0 3">
+                        <TextBox x:Name="SearchBox" TextAlignment="Center"  FontSize="20" Background="White"  Height="30"></TextBox>
+                    </Border>
+                    <Button  x:Name="SearchButton" FontSize="18" Content="Поиск"  Style="{StaticResource searchButton}"/>
+                    <Button  x:Name="AddSaleButton" FontSize="18" Content="Добавить"  Style="{StaticResource AddButton}"/>
+
+
+
+
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Page>

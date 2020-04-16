@@ -1,0 +1,20 @@
+﻿SalesJournal
+
+
+winexe
+C#
+.cs
+C:\Users\KDevAccount\Desktop\Sales Journal\SalesJournal\obj\Debug\netcoreapp3.0\
+SalesJournal
+none
+false
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_0
+C:\Users\KDevAccount\Desktop\Sales Journal\SalesJournal\App.xaml
+9557196338
+
+91458640041
+193616747485
+Controls\ImageButton.xaml;MainWindow.xaml;Pages\ArchivePage.xaml;Pages\OrdersPage.xaml;Pages\SalesPage.xaml;Pages\StatsPage.xaml;Pages\StockPage.xaml;Styles\Buttons.xaml;Styles\TabControlTemp.xaml;
+
+False
+

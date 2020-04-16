@@ -1,0 +1,30 @@
+﻿<Window x:Class="SalesJournal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SalesJournal"
+        mc:Ignorable="d"
+        Title="Журнал" MinHeight="450" MinWidth="800" >
+
+    <Grid Background="#9344CD">
+        <TabControl Grid.ColumnSpan="2" Padding="0">
+            
+            <TabItem x:Name="SalesTab"  Style="{StaticResource test}" Header="Продажи">
+            
+            </TabItem>
+            <TabItem x:Name="OrdersTab" Style="{StaticResource test}" Header="Заказы">
+
+            </TabItem>
+            <TabItem x:Name="StockTab" Style="{StaticResource test}" Header="Ткани">
+
+            </TabItem>
+            <TabItem x:Name="ArchiveTab" Style="{StaticResource test}" Header="Архив">
+
+            </TabItem>
+            <TabItem x:Name="StatsTab" Style="{StaticResource test}" Header="Статистика">
+
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
